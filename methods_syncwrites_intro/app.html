@@ -1,0 +1,16 @@
+<head>
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+
+
+<body>
+  {{> Items}}
+</body>
+
+<template name="Items">
+  <ul>
+    {{#each items}}
+      <li>{{title}}</li>
+    {{/each}}
+  </ul>
+</template>
