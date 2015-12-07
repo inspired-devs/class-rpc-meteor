@@ -2,7 +2,7 @@
 ## <a href="https://www.eventedmind.com/classes/rpc-meteor" target="_blank">Class: RPC with Meteor Methods</a>
 
 **Meteor**<br>
-**Core**
+****
 
 A Meteor remote procedure call (RPC) invokes a function on the server from the client using DDP. You're using RPC every time you insert, update or remove a document from a minimongo collection or making a Meteor method call. We'll take a detailed look at how a document write to a mongo collection gets synchronized between the client and the server. Finally, we'll look at how to improve performance by unblocking method calls.
 
